@@ -1386,15 +1386,15 @@ html {
   background: #000 !important; }
 
 .bg1 {
-  background-image: url("http://www.zsa-print.ru/uploads/bg1.png") !important;
+  background-image: url("https://fs.getcourse.ru/fileservice/file/download/a/12221/sc/333/h/0ad2869c58fd3ab5e24d14525bd2fefa.png") !important;
   position: relative;
   z-index: 2; }
 
 .bg2 {
-  background-image: url("http://www.zsa-print.ru/uploads/bg2.png") !important; }
+  background-image: url("https://fs.getcourse.ru/fileservice/file/download/a/12221/sc/223/h/0399ef18ad6d664ce3865ce5b8df5883.png") !important; }
 
 .bg3 {
-  background-image: url("http://www.zsa-print.ru/uploads/bg3.png") !important;
+  background-image: url("https://fs.getcourse.ru/fileservice/file/download/a/12221/sc/153/h/a2bb178a555427f6b5c0856af8574e7a.png") !important;
   background-color: #161726; }
 
 .bg {
@@ -1411,13 +1411,17 @@ html {
   padding-bottom: 10px !important; }
 
 .text-second {
+  font-weight: 400;
+  letter-spacing: -1px;
   font-weight: 600; }
 
 .text-orange {
-  color: #ed9204 !important; }
+  color: #ed9204 !important;
+  letter-spacing: -1px; }
 
 .tiny-text {
-  font-size: 12px; }
+  font-size: 12px;
+  letter-spacing: -1px; }
 
 .home-btn {
   width: 268px;
@@ -1441,13 +1445,15 @@ html {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #fff; }
+  color: #fff;
+  letter-spacing: -1px; }
 
 .email-title {
   color: #ed9204;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 40px; }
+  font-size: 40px;
+  letter-spacing: -1px; }
 
 .text-uppercase {
   text-transform: uppercase; }
@@ -1457,17 +1463,20 @@ html {
   text-transform: uppercase;
   font-size: 40px;
   color: #fff;
-  letter-spacing: .1px; }
+  letter-spacing: .1px;
+  letter-spacing: -1px; }
 
 .basic-link {
   text-decoration: underline;
-  color: #000; }
+  color: #000;
+  letter-spacing: -1px; }
 
 .bottom-desc {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: -1px; }
 
 .main-sub-heading {
   color: #666666;
