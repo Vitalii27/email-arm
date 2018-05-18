@@ -1,0 +1,152 @@
+@import "foundation";
+ html{
+   background: #000 !important;
+ }
+.bg1 {
+  background-image: url('http://www.zsa-print.ru/uploads/bg1.png') !important;
+  position: relative;
+  z-index: 2;
+}
+.bg2{
+  background-image: url('http://www.zsa-print.ru/uploads/bg2.png') !important;
+}
+.bg3{
+  background-image: url('http://www.zsa-print.ru/uploads/bg3.png') !important;
+  background-color: #161726;
+}
+.bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000 !important;
+}
+.text-home{
+  color: #fff;
+  font-size: 16px;
+}
+.custom-pb {
+  padding-bottom: 10px !important;
+}
+.text-second{
+  font-weight: 600;
+}
+.text-orange{
+  color: #ed9204 !important;
+}
+.tiny-text {
+  font-size: 12px;
+}
+.home-btn{
+  width: 268px;
+  //height: 48px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: inline-block;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(233,144,6,.9);
+  position: relative;
+  border-radius: 5px;
+  padding: 14px 0;
+  outline: 0;
+  font-weight: 600;
+
+    box-shadow: 0px 0px 9.5px 0.5px rgba(255, 180, 0, 1);
+
+
+
+
+}
+.subtitle-home{
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+.email-title{
+  color: #ed9204;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.email-title2{
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: .1px;
+}
+.basic-link {
+  text-decoration: underline;
+  color: #000;
+}
+.bottom-desc{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.main-sub-heading {
+  color: $grey;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 20px;
+}
+
+.main-heading {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 22px;
+}
+
+.main-body-p {
+  color: $grey;
+  line-height: (22/14);
+}
+
+.decorative-line {
+  background: $grey;
+  height: 2px;
+}
+
+.item-name {
+  text-transform: uppercase;
+  color: $accent;
+}
+
+.item-price {
+  color: $grey;
+}
+.footer-title{
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.border{
+  background-color: #fff;
+  width: 50px;
+  height: 2px;
+}
+
+.footer-desc{
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+table.button {
+  margin-bottom: 0;
+  table {
+    td {
+      padding: map-get($button-padding, default);
+      a {
+        padding: 0px;
+      }
+    }
+  }
+}
